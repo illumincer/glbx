@@ -6,7 +6,6 @@ import Darkmode from "../darkMode.js";
 import Login from "../login/firsItem.js";
 
 export default function NavbarItem() {
-
   const collapseItems = [
     "Features",
     "Customers",
@@ -21,7 +20,7 @@ export default function NavbarItem() {
     <Layout>
       <Navbar isBordered variant="sticky">
         <Navbar.Brand>
-        <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
+          <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
           <AcmeLogo />
           <Text b color="inherit" hideIn="xs">
             GLBX Coin
@@ -127,28 +126,32 @@ export default function NavbarItem() {
             </Button>
           </Navbar.Item>
           <Navbar.Item>
-              <Darkmode auto flat />
+            <Darkmode auto flat />
+          </Navbar.Item>
+        </Navbar.Content>
+        <Navbar.Content showIn="xs">
+          <Navbar.Item>
+            <Darkmode auto flat />
           </Navbar.Item>
         </Navbar.Content>
         <Navbar.Collapse>
-        {collapseItems.map((item, index) => (
-          <Navbar.CollapseItem key={item}>
-            <Link
-              color="inherit"
-              css={{
-                minWidth: "100%",
-              }}
-              href={item}
-            >
-              {item}
-            </Link>
-            
+          {collapseItems.map((item, index) => (
+            <Navbar.CollapseItem key={item}>
+              <Link
+                color="inherit"
+                css={{
+                  minWidth: "100%",
+                }}
+                href={item}
+              >
+                {item}
+              </Link>
+            </Navbar.CollapseItem>
+          ))}
+          <Navbar.CollapseItem>
+            <Login />
           </Navbar.CollapseItem>
-        ))}
-        <Navbar.CollapseItem>
-        <Login />
-        </Navbar.CollapseItem>
-      </Navbar.Collapse>
+        </Navbar.Collapse>
       </Navbar>
     </Layout>
   );

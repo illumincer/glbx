@@ -4,41 +4,39 @@ export const Imagecard = () => (
   <Card css={{ w: "100%", h: "80vh" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col css={{ dflex: "flex-end" }}>
-      <Card css={{ p: "$6", mw: "400px", background: "$gradient" }}>
-      <Card.Header>
-        <img
-          alt="nextui logo"
-          src="https://avatars.githubusercontent.com/u/86160567?s=200&v=4"
-          width="34px"
-          height="34px"
-        />
-        <Grid.Container css={{ pl: "$6" }}>
-          <Grid xs={12}>
-            <Text h4 css={{ lineHeight: "$xs" }}>
-              Next UI
-            </Text>
-          </Grid>
-          <Grid xs={12}>
-            <Text css={{ color: "$accents8" }}>nextui.org</Text>
-          </Grid>
-        </Grid.Container>
-      </Card.Header>
-      <Card.Body css={{ py: "$2" }}>
-        <Text>
-          Make beautiful websites regardless of your design experience.
-        </Text>
-      </Card.Body>
-      <Card.Footer>
-        <Link
-          icon
-          color="primary"
-          target="_blank"
-          href="https://github.com/nextui-org/nextui"
-        >
-          Visit source code on GitHub.
-        </Link>
-      </Card.Footer>
-    </Card>
+        <Card css={{ p: "$6", mw: "400px", background: "$gradient" }}>
+          <Card.Header>
+            <img
+              alt="nextui logo"
+              src="https://avatars.githubusercontent.com/u/86160567?s=200&v=4"
+              width="34px"
+              height="34px"
+            />
+            <Grid.Container css={{ pl: "$6" }}>
+              <Grid xs={12}>
+                <Text h4 css={{ lineHeight: "$xs" }}>
+                  GlobalX
+                </Text>
+              </Grid>
+              <Grid xs={12}>
+                <Text css={{ color: "$accents8" }}>glbxcoin.com</Text>
+              </Grid>
+            </Grid.Container>
+          </Card.Header>
+          <Card.Body css={{ py: "$2" }}>
+            <Text>GlobalX Coin - 2022</Text>
+          </Card.Body>
+          <Card.Footer>
+            <Link
+              icon
+              color="primary"
+              target="_blank"
+              href="https://github.com/nextui-org/nextui"
+            >
+              Visit source code on GitHub.
+            </Link>
+          </Card.Footer>
+        </Card>
       </Col>
     </Card.Header>
     <Card.Body css={{ p: 0 }}>
@@ -49,9 +47,8 @@ export const Imagecard = () => (
         height="100%"
         alt="Relaxing app background"
       />
-      
     </Card.Body>
-    
+
     <Card.Footer
       isBlurred
       css={{
@@ -79,7 +76,7 @@ export const Imagecard = () => (
                 GLBX App
               </Text>
               <Text color="#d1d1d1" size={12}>
-              Download the app to get a pre-wait list
+                Download the app to get a pre-wait list
               </Text>
             </Col>
           </Row>
