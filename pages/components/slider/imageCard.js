@@ -33,7 +33,7 @@ export const Imagecard = () => (
               target="_blank"
               href="https://github.com/nextui-org/nextui"
             >
-              Visit source code on GitHub.
+              <Button>More</Button>
             </Link>
           </Card.Footer>
         </Card>
