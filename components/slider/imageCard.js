@@ -1,4 +1,5 @@
 import { Card, Col, Row, Button, Text, Grid, Link } from "@nextui-org/react";
+import { AcmeLogo } from "../navbar/Logo";
 
 export const Imagecard = () => (
   <Card css={{ w: "100%", h: "80vh" }}>
@@ -6,12 +7,7 @@ export const Imagecard = () => (
       <Col css={{ dflex: "flex-end" }}>
         <Card css={{ p: "$6", mw: "400px", background: "$gradient" }}>
           <Card.Header>
-            <img
-              alt="nextui logo"
-              src="https://avatars.githubusercontent.com/u/86160567?s=200&v=4"
-              width="34px"
-              height="34px"
-            />
+            <AcmeLogo />
             <Grid.Container css={{ pl: "$6" }}>
               <Grid xs={12}>
                 <Text h4 css={{ lineHeight: "$xs" }}>

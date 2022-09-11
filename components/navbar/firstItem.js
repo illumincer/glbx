@@ -18,7 +18,7 @@ export default function NavbarItem() {
 
   return (
     <Layout>
-      <Navbar isBordered variant="sticky">
+      <Navbar isBordered variant="sticky" shouldHideOnScroll>
         <Navbar.Brand>
           <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
           <AcmeLogo />

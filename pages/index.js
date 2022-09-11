@@ -3,9 +3,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { createTheme, NextUIProvider } from "@nextui-org/react"
-import Darkmode from './components/darkMode'
-import NavbarItem from './components/navbar/firstItem'
-import Slidermain from './components/slider/firsItem.'
+import Darkmode from '../components/darkMode'
+import NavbarItem from '../components/navbar/firstItem'
+import Slidermain from '../components/slider/firsItem.'
 
 // 2. Call `createTheme` and pass your custom values
 const lightTheme = createTheme({
